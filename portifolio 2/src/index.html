@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="HTML, html, css, CSS, js, JS, javascript, SQL, React, React-native">
+    <meta name="description" content="portifolio de Rubem Benicio, desenvolvedor front-end">
+    <meta name="Author" content="Rubem Benicio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio - Rubem</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-primal">
+            <a href="#secSecond">About Me</a>
+            <a href="#secThird">My projects</a>
+            <a href="#secFourth">My Knowledge</a>
+            
+        </nav>
+        <nav class="nav-responsive">
+            <a href="" class="">About Me</a>
+            <a href="">My projects</a>
+            <a href="">My Knowledge</a>
+        </nav>
+    </header>
+    <main>
+        <section class="secFirst">
+            <article class="artFirt">
+                <h1>Quem é: </h1>
+                <p>Hi i am Rubem, and in this portifolio i talk to you about me, have a good read and thanks for read :)</p>
+                <a href="https://www.linkedin.com/in/rubem-benicio-72962223a/" class="Linkedin"><img src="/assets/likedinlogo.png" alt=""> Linkedin</a>
+                <a href="https://github.com/RubemBenicio" class="Github"><img src="/assets/gitlogo.png" alt="">Github</a>
+            </article>
+        </section>
+        <section id="secSecond">
+
+            <img data-aos="fade-right" src="/assets/reactlogo.png" alt="" class="react-logo">
+            <img data-aos="fade-right" src="/assets/html5-logo.png" alt="" class="logo-html-css" style="margin-bottom:-8vh;">
+            <img data-aos="fade-right" src="/assets/csslogo.png" alt="" class="logo-html-css">
+            
+            <div class="card" data-aos="fade-left">
+                <p> &nbsp; &nbsp; Ola, eu sou Rubem, um entusiasta da programação,
+                   a um ano desenvolvo em JS em HTML, CSS e SQL, além de que em meu período de estágio, ensinei sobre programação orientada a objetos através da linguagem python, tenho um diploma pela AWS, o AWS Cloud Foundation.<br>
+                   &nbsp; &nbsp; Tenho dois projetos sociais em minha pequena carreira, sendo ambos de carater social vizando o bem comum da população,  no primeiro o projeto foi executado utilizando JavaScript, CSS e HTML, executei todo o desenvolvimento front-end, a escolha de cores porem ficou a cargo da chefe do projeto. <br>
+                   &nbsp; &nbsp; Tenho uma personalidade muito animada e gosto de trabalhar e contribuir para um local de trabalho com clima agradável e amigável, vizando um bom rendimento da equipe e uma melhor contribuição dos membros para com a empresa.
+                </p>
+            </div>
+        </section>
+        <section id="secThird">
+            <div class="projects" data-aos="fade-right">
+                <img src="" alt="" srcset="">
+                <h3>Projeto Um</h3>
+            </div>
+            <div class="projects" data-aos="zoom-in">
+                <img src="" alt="" srcset="">
+                <h3>Projeto Dois</h3>
+            </div>
+            <div class="projects" data-aos="fade-left">
+                <img src="" alt="" srcset="">
+                <h3>Projeto Tres</h3>
+            </div>
+            <button id="seeMoreProjects" data-aos="fade-left">Ver mais</button>
+        </section>
+        <section id="secFourth">
+            <div class="logos">
+                <button class="langs" id="js" onclick="openJs()" data-aos="fade-right">JS</button>
+                <button class="langs" id="html" onclick="openHtml()" data-aos="fade-up">HTML5</button>
+                <button class="langs" id="css" onclick="openCss()" data-aos="fade-down">CSS</button>
+                <button class="langs" id="react" onclick="openReact()" data-aos="fade-left">&#9883;</button>
+            </div>
+            <div class="texts" data-aos="fade-left">
+                <div class="containerJs">
+                    <span><button class="btClose" onclick="non()">X</button></span>
+                    &nbsp;Em javascript tenho experiênciano desenvolvimento baseado nos conhecimentos front-end, tais quais ja demonstrei nesse portifólio e alguns conteúdos adicionais, tais quais Jquery, React e React-native. Estou aprendendo também Next js, Typescript e Node JS.
+                    
+                </div>
+                <div class="containerHTML">
+                    <span><button class="btClose" onclick="non()">X</button></span>
+                    &nbsp;Em HTML tenho experiênciano desenvolvimento com experiência de dois anos no desenvolvimento de projetos, alguns dos quais podem ser checados acima. Fiquei responsável pelo desenvolvimento front-end através das bibliotecas e ferramentas disponibilizadas para HTML e CSS. 
+                   
+                </div>
+                <div class="containerCSS">
+                    <span><button class="btClose" onclick="non()">X</button></span>
+                    &nbsp;Em CSS unido ao HTML são as duas linguagens (de marcação) que tenho o maior tempo e experiência, sendo essa de dois anos e meio, em meio aos estudos e aos
+                     
+                </div>
+                <div class="containerReact">
+                    <span><button class="btClose" onclick="non()">X</button></span>
+                    &nbsp;Com relação ao React-native tenho uma experiência em um projeto anterior que era fazer um aplicativo para o Geopark araripe 
+                    
+                </div>
+            </div>
+            <div class="badges">
+                <h1>Aqui você verá minhas <a href="">insignias</a></h1>
+                <h3>Poderás checar atraves do site Credly</h3>
+                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="34772139-9d3d-411a-8b3d-ab739c197d0e" data-share-badge-host="https://www.credly.com"></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <span>
+            © Rubem Benicio Da Silva - 2023
+        </span>
+    </footer>
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
