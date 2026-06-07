@@ -1,4 +1,4 @@
-const footerTemplate = document.createElement('template');
+const footerTemplate = document.createElement('footerTemplate');
 template.innerHTML=`
 <style>
     :host { display: block;} /* Define o comportamento do container */
