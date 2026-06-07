@@ -70,10 +70,10 @@ template.innerHTML=`
         <li><a href="/index.html">Inicio</a></li>
         <li><a href="sobre/sobre.html">Sobre</a></li>
         <li>
-                <img src="/assets/3fc21e823c2abfa0efb5ecb2fb145444.jpg" alt="Gato">
+                <img src="./assets/3fc21e823c2abfa0efb5ecb2fb145444.jpg" alt="Gato">
         </li>
-        <li><a href="/src/projetos/projetos.html">Projetos</a></li>
-        <li><a href="/src/formacao/formacoes.html">Formações</a></li>
+        <li><a href="projetos/projetos.html">Projetos</a></li>
+        <li><a href="formacao/formacoes.html">Formações</a></li>
     </ul>
 </nav>
 `;
