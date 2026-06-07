@@ -67,8 +67,8 @@ template.innerHTML=`
 </style>
 <nav>
     <ul>
-        <li><a href="/src/index.html">Inicio</a></li>
-        <li><a href="/src/sobre/sobre.html">Sobre</a></li>
+        <li><a href="/index.html">Inicio</a></li>
+        <li><a href="sobre/sobre.html">Sobre</a></li>
         <li>
                 <img src="/assets/3fc21e823c2abfa0efb5ecb2fb145444.jpg" alt="Gato">
         </li>
