@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sobreNos{
+    text-align: justify;
+    padding: 20vh;
+    color: #5100a8;
+}
+.sobreNos h1{
+    margin-bottom: 1vh;
+}
+.sobreNos ul{
+    margin-left: 3vw;
+}
+@media (max-width:720px) {
+    .sobreNos{
+        margin-top: 10vh;
+        padding: 5vw;
+    }
+}

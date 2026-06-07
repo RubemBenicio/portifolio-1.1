@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    color:#5100a8;
+    text-align: center;
+}
+article{
+    width: 50%;
+    text-align: justify;
+}
+.projApres{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-block: 3vh;
+    justify-content: start;
+    align-items: center;
+    text-align: justify;
+    margin-top: 10vh;
+
+}
+.projApres h1, p{
+    width: 80%;
+    padding-inline: 4vw;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-block: 3vh;
+    text-align: justify;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top: #5100a8 solid .1vh;
+    
+}
+
+section h2, section h3, section p{
+    width: 100%;
+    padding-inline: 4vw;
+}
+section div{
+    width: 50%;
+    text-align: center;
+}
+section li{
+    margin-left: 3vw;
+}
+img{
+    width: 30vw;
+    height: 35vh;
+    border-radius: 1vh;
+    transition: .5s;
+}
+.EducAya div{
+    overflow: hidden;
+    width: 30vw;
+    height: 45vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.EducAya div ul{
+    display:flex;
+    justify-content: center;
+    width: 30vw;
+}
+.EducAya button{
+    background-color: #5100a8;
+    color: #fff;
+    border: none;
+    width: 3vw;
+    height: 4vh;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+@media  (max-width:700px){
+
+    article{
+        width: 100%;
+    }
+    .EducAya div, .geoApp div{
+        width: 90vw;
+        height: 52vh;
+        margin-top: 2vh;
+    }
+    section div{
+        width: 100%;
+        text-align: center;
+    }
+    section img{
+        width: 90vw;
+        height: 44vh;
+    }
+    .EducAya button{
+        width: 10vw;
+        height: 5vh;
+    }
+}

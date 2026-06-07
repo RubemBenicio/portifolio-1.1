@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.primeiroContainer{
+    width: 100%;
+    height: 80vh;
+    background-color: #b692ff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.primeiroContainer h2, p, .segundoContainer h2, p, ul{
+    color: #5100a8;
+    animation-name: to-left;
+    animation-duration: 1000ms;
+}
+.botoesIniciais, .primeiroContainer div{
+    width: 60vw;
+    margin-top: 5vh;
+}
+.botoesIniciais a{
+    color:#5100a8;
+    text-decoration: none;
+    padding: 2vh 3vw;
+    border: #5100a8 solid 0.2vh;
+    border-radius: .8vh;
+    transition: .5s;
+    animation-name: to-left;
+    animation-duration: 1000ms;
+}
+.primeiroContainer img{
+    width: 40vh;
+    border-radius: 100%;
+    animation-name: spin;
+    animation-duration: 1000ms;    
+}
+.botoesIniciais a:hover{
+    color: #fff;
+    border: #fff 0.1vh solid;
+}
+.segundoContainer{
+    width: 100%;
+    padding-inline: 5vw;
+    padding-block: 4vh;
+}
+@media (max-width:700px) {
+    .primeiroContainer{
+        margin-top: 5vh;
+    }
+    .segundoContainer{
+
+    }
+}
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+@keyframes to-left{
+    from{
+        margin-left: -100vw;
+    }
+    to{
+        margin-left: 0vw;
+    }
+}
